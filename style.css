@@ -1,0 +1,160 @@
+body {
+    margin: 30px;
+    padding: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+
+/*partie header */
+.logo{
+    padding: 20px 0px;
+    width: 87px;
+    height: 77px;
+    margin: 19px;
+ }
+
+ /*logos a droite */
+ .logoadroite{
+    padding: 25px 0px;
+    width: 87px;
+    height: 213px;
+    margin: 21px;
+    display: flex;
+
+ }
+
+ #image1 {
+    height: 66px;
+    width: 67px;
+ }
+
+ #image2 {
+    height: 66px;
+    width: 67px;
+ }
+
+ #image3 {
+    height: 49px;
+    width: 51px;
+    padding: 5px;
+    background-color: white;
+ }
+
+ .leslogos {display: flex;
+justify-content: space-between;
+flex-direction:row;}
+
+
+/*nav links*/
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 0px;
+
+ }
+ .nav-links a {text-decoration: none;
+    color: black;
+
+}
+.nav-links a:hover {
+                 text-decoration: underline;
+                 color: black;
+
+
+}
+
+.nav-links li {
+            font-weight:bold;
+            font-size: 14px;
+            margin: 23px 0px;
+            padding: 50px;
+            text-decoration: underline;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#logobag {    height: 58px;
+    width: 57px;
+    padding: 5px;
+
+}
+
+.titre p {text-decoration: underline;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-weight:bold;
+          font-size: 14px;
+}
+.titre {display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    
+
+
+    .delete-like {
+        text-align: center;
+      }
+      .image-produit {
+        width: 287px;
+        height: 390px;
+      }
+      h2 {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .btn-delete,
+      .btn-like,
+      .btn-plus,
+      .btn-moins {
+        border: none;
+        background: none;
+        outline: 0;
+      }
+      
+      .btn-delete:focus,
+      .btn-like:focus,
+      .btn-plus:focus,
+      .btn-moins:focus {
+        outline: 0;
+      }
+      
+      .product-qnt {
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+        font-size: larger;
+        font-weight:bold;
+      }
+      .like {
+        fill: black;
+        height: 25px;
+        width: 25px;
+      }
+      
+      .col{
+        border-style: 1px outset gray ;
+      }
+    
+      
+      .fa-heart{
+        color: gray;
+      }
+      .shopping-bag-total {
+        padding-left: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: large;
+        font-weight: 500;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
