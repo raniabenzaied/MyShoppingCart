@@ -6,17 +6,27 @@ for (let i=0; i<btndelete.length; i++){
 
 }
 
+const prixElement = document.querySelector('h3');
+let prixInitial = 80; // exemple de prix initial
+const btnPlus = document.querySelector('.btn-plus');
+let quantite = 0;
+
 let bouttonplus =document.getElementsByClassName(`btn-plus`);
 for(let i=0; i<bouttonplus.length; i++){
     bouttonplus[i].addEventListener('click',function(){
         bouttonplus[i].previousElementSibling.innerText ++;
+        quantite++;
+        prixElement.textContent = `Prix : ${quantite * prixInitial}$`;
     });
 }
+
 let bouttonmoins =document.getElementsByClassName('btn-moins');
 for(let i=0 ; i<bouttonmoins.length; i++){
     bouttonmoins[i].addEventListener('click',function(){
+        
         if( bouttonmoins[i].nextElementSibling.innerText > 0)
             bouttonmoins[i].nextElementSibling.innerText -- ;
+            
         
     })
     }
@@ -46,4 +56,6 @@ for(let i=0 ; i<bouttonmoins.length; i++){
       const formattedTotal = total.toFixed(2);
       return formattedTotal;
     };
+    
+  
     

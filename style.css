@@ -148,6 +148,7 @@ flex-direction:row;}
       
       .fa-heart{
         color: gray;
+        height: 30px;
       }
       .shopping-bag-total {
         padding-left: 40px;
